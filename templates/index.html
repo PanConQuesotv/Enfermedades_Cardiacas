@@ -3,39 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Predicción de Enfermedad Cardíaca</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
-    <h1>Predicción Temprana de Enfermedad Cardíaca</h1>
+    <div class="container">
 
-    <p>
-        Este proyecto tiene como objetivo desarrollar un modelo de minería de datos capaz de predecir
-        la presencia de enfermedades cardíacas en pacientes a partir de variables clínicas.
-    </p>
+        <h1>Predicción Temprana de Enfermedad Cardíaca</h1>
 
-    <h2>Problemática</h2>
-    <p>
-        Las enfermedades cardíacas son una de las principales causas de muerte a nivel mundial.
-        En muchos casos, el diagnóstico ocurre demasiado tarde, cuando el paciente ya presenta
-        complicaciones graves.
-    </p>
+        <p>
+            Este proyecto tiene como objetivo desarrollar un modelo de minería de datos capaz de predecir
+            la presencia de enfermedades cardíacas en pacientes a partir de variables clínicas.
+        </p>
 
-    <p>
-        Por ello, surge la necesidad de utilizar técnicas de análisis de datos que permitan
-        identificar tempranamente a los pacientes en riesgo, facilitando la toma de decisiones médicas.
-    </p>
+        <h2>Problemática</h2>
+        <p>
+            Las enfermedades cardíacas son una de las principales causas de muerte a nivel mundial.
+            En muchos casos, el diagnóstico ocurre demasiado tarde.
+        </p>
 
-    <h2>Objetivo</h2>
-    <p>
-        Predecir si un paciente presenta enfermedad cardíaca utilizando variables como edad,
-        presión arterial, colesterol y otros indicadores clínicos.
-    </p>
+        <p>
+            Por ello, surge la necesidad de utilizar técnicas de análisis de datos que permitan
+            identificar tempranamente a los pacientes en riesgo.
+        </p>
 
-    <h2>Navegación</h2>
-    <ul>
-        <li><a href="/dataset">Ver Dataset</a></li>
-        <li><a href="/problematica">Ver Problemática Detallada</a></li>
-    </ul>
+        <h2>Objetivo</h2>
+        <p>
+            Predecir si un paciente presenta enfermedad cardíaca utilizando variables clínicas.
+        </p>
+
+        <h2>Navegación</h2>
+        <ul>
+            <li><a href="/dataset">Ver Dataset</a></li>
+            <li><a href="/problematica">Ver Problemática Detallada</a></li>
+        </ul>
+
+    </div>
 
 </body>
 </html>
